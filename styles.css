@@ -3,6 +3,17 @@ background-color: green;
 color: #fff;
 }
 
+#cta {
+  background-color: green;
+  color: #fff;
+  padding: 7% 15%;
+
+}
+
+.cta-heading {
+
+}
+
 body {
   font-family: "Montserrat";
 }
@@ -121,4 +132,17 @@ p {
 
 .pricing-card {
   padding: 3% 2%;
+}
+
+@media (max-width: 1000px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
 }
